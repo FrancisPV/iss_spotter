@@ -16,3 +16,5 @@ const printPassTimes = function(ISSPassing) {
     console.log(`Next pass at ${datetime} for ${duration} seconds!`);
   }
 };
+
+module.exports = { printPassTimes };
